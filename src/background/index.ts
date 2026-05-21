@@ -1,0 +1,1 @@
+// Service worker da extensão
