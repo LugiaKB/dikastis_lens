@@ -1,0 +1,32 @@
+/* Estilos do popup */
+
+$color-text: #1a1a1a;
+$color-muted: #666;
+$color-success: #16a34a;
+$color-bg: #ffffff;
+$font-size-base: 14px;
+$popup-min-width: 300px;
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: $font-size-base;
+  padding: 16px;
+  min-width: $popup-min-width;
+  background: $color-bg;
+  color: $color-text;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 4px 0;
+  color: $color-muted;
+}
+
+.status-ok {
+  color: $color-success;
+}

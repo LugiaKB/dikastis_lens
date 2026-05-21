@@ -1,4 +1,4 @@
-import "./popup.css";
+import "./popup.scss";
 
 // Log initialization
 console.log("Popup iniciado");
