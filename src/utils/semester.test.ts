@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { SemesterHelper } from "@/utils/semester";
+import { SemesterHelper } from "@/utils";
 
 describe("SemesterHelper.format", () => {
   it('formata "2025.2" para "2025-2"', () => {

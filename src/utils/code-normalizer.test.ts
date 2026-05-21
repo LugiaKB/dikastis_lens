@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { CodeNormalizer } from "@/utils/code-normalizer";
+import { CodeNormalizer } from "@/utils";
 
 describe("CodeNormalizer.normalize", () => {
   // ── Python ───────────────────────────────────────────

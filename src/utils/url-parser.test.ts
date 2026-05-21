@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { UrlParser } from "@/utils/url-parser";
+import { UrlParser } from "@/utils";
 
 const BASE = "https://dikastis.com.br";
 

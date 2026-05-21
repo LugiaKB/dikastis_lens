@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { StorageHelper } from "@/utils/storage";
+import { StorageHelper } from "@/utils";
 
 describe("StorageHelper.buildKey", () => {
   it('gera chave "submissions:2025-2:CC:1"', () => {
